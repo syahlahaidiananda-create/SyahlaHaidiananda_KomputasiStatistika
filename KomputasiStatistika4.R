@@ -40,7 +40,7 @@ tabel
 #dan bandingkan histogram hasil simulasi dengan PMF teoretis.
 
 #parameter
-n <- 10
+n <- 15
 p <- 0.4
 
 # Simulasi 1.000 percobaan
