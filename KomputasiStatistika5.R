@@ -66,12 +66,11 @@ sigma <- 5
 #proporsi produk underweight: P(X < 240)
 p4 <- pnorm(240, mean = mu, sd = sigma)
 cat("Proporsi underweight P(X < 240):", p4, "\n")
-## [1] Proporsi underweight P(X < 240): 0.02275013
 
-# 2. Generate sampel
+# Generate sampel
 x <- rnorm(n, mean = mu, sd = sigma)
 
-# 3. Statistik sampel
+#statistik sampel
 (x_bar <- mean(x))                 
 (mle_sigma2 <- mean((x - x_bar)^2)) 
 (sd_sample <- sd(x))               
