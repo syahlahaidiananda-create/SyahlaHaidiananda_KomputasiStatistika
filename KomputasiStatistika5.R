@@ -43,7 +43,7 @@ curve(dunif(x, min = a, max = b), from = a, to = b, add = TRUE, col = "red", lwd
 #tersebut rusak sebelummencapai usia 5 tahun?
 
 #sebaran eksponensial
-peluang <- pexp(5, rate = 1/10, lower.tail = FALSE)
+peluang <- pexp(5, rate = 1/10)
 cat("Peluang P(X < 5) [Cara 1]:", peluang, "\n")
 
 # grafik  Eksponensial dengan lambda = 0.1
